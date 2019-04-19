@@ -1,8 +1,8 @@
 {
-	"name": "drink-water-reminder",
-	"displayName": "drink water reminder",
+	"name": "drinking",
+	"displayName": "Drink water reminder",
 	"description": "If you are coding, You will often forget to drink water. This plugin will remind you to drink.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "yoloyi",
 	"engines": {
 		"vscode": "^1.29.0"
@@ -38,7 +38,7 @@
 			"properties": {
 				"drink.water.remindText": {
 					"type": "string",
-					"default": "喝水（ drink water ）",
+					"default": "please drinking water",
 					"description": "Drink reminder text"
 				},
 				"drink.water.reminderIntervalInMinutes": {

@@ -1,4 +1,4 @@
-# drink-water README
+# Drink water reminder
 
 If you are coding, You will often forget to drink water. This plugin will remind you to drink.
 
@@ -12,8 +12,8 @@ If you are coding, You will often forget to drink water. This plugin will remind
 ## Extension Settings
 
 
-* `drink.water.reminderIntervalInMinutes`: Setting Timing Reminder Time
-* `drink.water.remindText`: Set Drink reminder text
+* `drink.water.reminderIntervalInMinutes`: Setting Timing Reminder Time ( default : **60**)
+* `drink.water.remindText`: Set Drink reminder text  ( default : **please drinking water ）**)
 
 ## Known Issues
 
