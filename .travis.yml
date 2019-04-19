@@ -3,10 +3,7 @@ sudo: false
 
 node_js:
   - "8"
-  
+
 before_install:
   - npm install -g vsce
-
-script:
-  - vsce publish -p ${EXTENSION_TOKEN}
 

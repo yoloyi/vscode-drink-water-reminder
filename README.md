@@ -25,4 +25,15 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 Reminder statement can be set, reminder time
 
+### 0.0.2
+
+Modified README Markdown
+
+### 0.0.3
+
+Use travis
+
+### 0.0.4
+Modified package.json
+
 **Enjoy!**

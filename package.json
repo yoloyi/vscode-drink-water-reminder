@@ -2,7 +2,7 @@
 	"name": "drinking",
 	"displayName": "Drink water reminder",
 	"description": "If you are coding, You will often forget to drink water. This plugin will remind you to drink.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "yoloyi",
 	"engines": {
 		"vscode": "^1.29.0"
