@@ -11,7 +11,10 @@ node_js:
 before_install:
   - npm install -g vsce
 
+install:
+ - npm install
+ - npm run vscode:prepublish
+
 script:
-  - echo ${MARKTABLE_EXTENSION_TOKEN}
   - vsce publish -p ${MARKTABLE_EXTENSION_TOKEN}
 

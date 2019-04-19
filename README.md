@@ -36,4 +36,7 @@ Use travis
 ### 0.0.4
 Modified package.json
 
+### 0.0.5
+Modified package.json
+
 **Enjoy!**
