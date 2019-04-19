@@ -1,9 +1,17 @@
 language: node_js
 sudo: false
 
+branches:
+  only:
+  - master
+
 node_js:
   - "8"
 
 before_install:
   - npm install -g vsce
+
+script:
+  - echo ${MARKTABLE_EXTENSION_TOKEN}
+  - vsce publish -p ${MARKTABLE_EXTENSION_TOKEN}
 
