@@ -16,5 +16,6 @@ install:
  - npm run vscode:prepublish
 
 script:
-  - vsce publish -p ${MARKTABLE_EXTENSION_TOKEN}
+  - env
+  - `vsce publish -p ${MARKTABLE_EXTENSION_TOKEN}`
 
