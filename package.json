@@ -1,0 +1,55 @@
+{
+	"name": "drink-water",
+	"displayName": "drink-water",
+	"description": "If you are coding, You will often forget to drink water. This plugin will remind you to drink.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:drink.water",
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "drink.water",
+				"title": "Open drink reminder",
+				"category": "drink.water"
+			}
+		],
+		"configuration": {
+			"title": "Drink water reminder",
+			"properties": {
+				"drink.water.remindText": {
+					"type": "string",
+					"default": "喝水（ drink water ）",
+					"description": "Drink reminder text"
+				},
+				"drink.water.reminderIntervalInMinutes": {
+					"type": "number",
+					"default": 60,
+					"description": "every time remind"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"tslint": "^5.12.1",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
