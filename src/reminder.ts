@@ -4,6 +4,6 @@ import { Utility } from './utility';
 export class Reminder {
     
     public static remind() {
-        vscode.window.showErrorMessage(Utility.getConfiguration().get<string>("remindText", ""));
+        vscode.window.showInformationMessage(Utility.getConfiguration().get<string>("remindText", ""));
     }
 }
