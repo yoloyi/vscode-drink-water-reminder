@@ -38,7 +38,7 @@
 			"properties": {
 				"drink.water.remindText": {
 					"type": "string",
-					"default": "please drinking water",
+					"default": "please drink water",
 					"description": "Drink reminder text"
 				},
 				"drink.water.reminderIntervalInMinutes": {
